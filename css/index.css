@@ -1,0 +1,259 @@
+.mainSec {
+  height: 750px;
+  background: url(/img/site_img/bg_1.png) no-repeat center / cover;
+}
+.mainTitle {
+  font-size: 108px;
+  color: var(--coolGray01);
+  padding-top: 360px;
+  margin-bottom: 43px;
+}
+.contentTxt {
+  line-height: 130%;
+  margin-bottom: 30px;
+}
+/* projects */
+.projects {
+  height: 670px;
+  position: relative;
+}
+.projects::after {
+  display: block;
+  content: '';
+  clear: both;
+  width: 100%;
+  position: absolute;
+  top: 470px;
+  left: 50%;
+  transform: translateX(-100%);
+  border-bottom: 1px solid var(--coolGray03);
+}
+.projects .inner_main {
+  height: 100%;  
+}
+.textCon,
+.imgSlide {
+  /* border: 1px solid #000; */
+  width: 50%;
+  height: 100%;
+}
+.imgSlide .swiper {
+  margin-top: 30px;
+}
+.textCon .title_txt {
+  margin-bottom: auto;
+}
+.textCon .projectSize {
+  width: 100px;
+  height: 20px;
+  background-color: var(--black);
+  color: var(--coolGray04);
+  margin-bottom: 8px;
+}
+.textCon .projectTitle {
+  margin-bottom: 23px;
+}
+.textCon .program {
+  margin-bottom: 8px;
+}
+.textCon .use {
+  margin-bottom: 45px;
+}
+.btnWrap {
+  height: 200px;
+  padding: 40px 0;
+}
+.btnWrap .githubBtn {
+  margin-bottom: 20px;
+}
+.imgSlide {
+  border-left: 1px solid var(--coolGray03);
+}
+.imgSlide .swiper {
+  width: 570px;
+  height: 602px;
+  margin-right: 0;
+}
+.imgSlide .swiper .swiper-wrapper {
+  width: 570px;
+  height: 570px;
+}
+.imgSlide .swiper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.imgSlide .swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+.slideBtn {
+  width: 117px;
+  height: 22px;
+  margin-top: 10px;
+  margin-left: auto;
+}
+.slideBtn div {
+  cursor: pointer;
+}
+.slideBtn img {
+  width: 22px;
+  height: 12px;
+  object-fit: contain;
+}
+.slideBtn .pagination {
+  width: fit-content;
+}
+/* skillTool */
+.skillTool {
+  overflow: hidden;
+  height: 228px;
+  background: url(/img/site_img/bg_2.png) no-repeat center / cover;
+}
+.skillTool .title_txt {
+  color: var(--coolGray04);
+}
+.skillTool .title_txt::after {
+  background-color: var(--coolGray04);
+}
+.skillTool ul {
+  margin-top: 35px;
+  flex-wrap: wrap;
+  gap: 15px 23px;
+}
+.skillTool ul li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 130px;
+  height: 25px;
+  background-color:rgba(247, 248, 249, 0.5);
+  backdrop-filter: blur(3px);
+  padding: 0 6px;
+}
+/* experience */
+.experience {
+  height: 440px;
+  border-bottom: 1px solid var(--coolGray03);
+}
+.experience .inner_main {
+  height: 100%;
+}
+.exper,
+.qualifi {
+  width: 50%;
+  height: 100%;
+}
+.qualifi {
+  border-left: 1px solid var(--coolGray03);
+}
+.experience .title_txt {
+  margin-bottom: 30px;
+}
+.experience ul li {
+  margin-bottom: 35px;
+}
+.experience ul li span {
+  display: inline-block;
+  width: 3px;
+  height: 10px;
+  background-color: var(--black);
+  margin-right: 10px;
+}
+.exper ul {
+  margin-bottom: auto;
+}
+.qualifi ul {
+  margin-top: 105px;
+  margin-left: 50px;
+}
+.exper button {
+  margin-bottom: 40px;
+}
+/* contact */
+.contact {
+  margin-top: 50px;
+  height: 490px;
+  border-top: 1px solid var(--coolGray03);
+}
+.contact .inner_main {
+  height: 100%;
+}
+.contactInfo,
+.mail {
+  height: 100%;
+  border-right: 1px solid var(--coolGray03);
+}
+.contactInfo {
+  width: 400px;
+}
+.mail {
+  width: 800px;
+}
+.contactInfo .title_txt {
+  margin-bottom: 55px;
+}
+.contactInfo li span {
+  width: 100px;
+  height: 20px;
+  background-color: var(--black);
+  color: var(--coolGray04);
+  margin-right: 30px;
+}
+.contactInfo li {
+  margin-bottom: 20px;
+}
+.formRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.formRow label {
+  position: absolute;
+  top: 35%;
+  left: -120px;
+  transform: translateY(-50%);
+  width: 70px;
+}
+.formRow label span {
+  display: inline-block;
+  width: 3px;
+  height: 10px;
+  background-color: var(--black);
+  margin-right: 10px;
+}
+.formRow .content {
+  top: 10px;
+}
+.formRow input {
+  width: 300px;
+  height: 25px;
+  border: 1px solid var(--coolGray03);
+  background-color: var(--coolGray04);
+  margin-bottom: 12px;
+  padding: 0 10px;
+  outline: none;
+}
+.formRow input::placeholder {
+  font-size: 14px;
+  color: var(--coolGray01);
+}
+.formRow textarea {
+  width: 300px;
+  height: 100px;
+  border: 1px solid var(--coolGray03);
+  background-color: var(--coolGray04);
+  resize: none;
+  padding: 5px 10px;
+  outline: none;
+}
+.formRow textarea::placeholder {
+  font-size: 14px;
+  color: var(--coolGray01);
+}
+.mail button {
+  margin-top: 55px;
+}

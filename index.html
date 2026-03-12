@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/common/global.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/lib/swiper-bundle.min.css">
+  <title>Portfolio</title>
+</head>
+<body class="home">
+  <header id="header" class="flex_between"></header>
+
+  <main>
+    <section class="mainSec">
+      <div class="mainWrap inner_main">
+        <p class="mainTitle">Front-end Developer</p>
+        <p class="contentTxt">
+          책임감과 성실함을 바탕으로 끊임없이 배우고 성장하는 개발자입니다.
+          <br>
+          지속적인 학습과 도전을 통해 팀과 서비스에 기여하는 개발자가 되겠습니다.
+        </p>
+        <button class="btn"><a href="#none">projects</a></button>
+      </div>
+    </section>
+    <section class="projects">
+      <div class="inner_main flex">
+        <div class="textCon flex_col">
+          <div class="title_txt">projects</div>
+          <div class="projectInfo">
+            <!-- <p class="projectSize flex_center">team</p>
+            <p class="projectTitle title_24">메인 프로젝트 사이트</p>
+            <p class="program">html css js etc</p>
+            <p class="use">API</p> -->
+          </div>
+          <div class="btnWrap">
+            <!-- <div class="githubBtn btn"><a href="#none">github</a></div>
+            <div class="siteBtn btn"><a href="#none">site</a></div> -->
+          </div>
+        </div>
+        <div class="imgSlide flex_center">
+          <div class="swiper mySwiper ">
+            <div class="swiper-wrapper">
+              <!-- <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+              <div>
+                <img src="/img/mock_img/gyeongjumuseum_mockup.png" alt="">
+              </div> -->
+            </div>
+            <div class="slideBtn flex_between">
+              <div class="prevBtn">
+                <img src="/img/site_img/prevArrow_1.png" alt="prevBtn">
+              </div>
+              <div class="pagination"></div>
+              <div class="nextBtn">
+                <img src="/img/site_img/nextArrow_1.png" alt="nextBtn">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skillTool">
+      <div class="inner_main">
+        <div class="title_txt">skills & tools</div>
+        <ul class="flex">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>JQuery</li>
+          <li>React</li>
+          <li>BootStrap</li>
+          <li>Semantic UI</li>
+          <li>Github</li>
+          <li>Figma</li>
+          <li>Illustrator</li>
+          <li>Photoshop</li>
+        </ul>
+      </div>
+    </section>
+    <section class="experience">
+      <div class="inner_main flex">
+        <div class="exper flex_col">
+          <div class="title_txt">experience</div>
+          <ul>
+            <li>
+              <span></span>
+              그린컴퓨터아트학원 2023.04 ~ 2023.10
+            </li>
+            <li>
+              <span></span>
+              SBS아카데미컴퓨터아트학원 2020.04 ~ 2020.12
+            </li>
+            <li>
+              <span></span>
+              ㈜지앤에스인터내셔널 2021.04 ~ 2023.01 ui designer
+            </li>
+            <li>
+              <span></span>
+              한밭대학교 산업디자인학과 2019.03 ~ 2019.12
+            </li>
+          </ul>
+          <button class="btn">
+            <a href="#none">이력서</a>
+          </button>
+        </div>
+        <div class="qualifi">
+          <ul>
+            <li>
+              <span></span>
+              정보처리기사 2025.09
+            </li>
+            <li>
+              <span></span>
+              웹디자인개발기능사 2023.12
+            </li>
+            <li>
+              <span></span>
+              대전디자인공모전 제품디자인 입선 2019.11
+            </li>
+            <li>
+              <span></span>
+              대전디자인공모전 환경디자인 특선 2019.11
+            </li>
+            <li>
+              <span></span>
+              대전디자인공모전 제품디자인 은상 2018.11
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="inner_main flex">
+        <div class="contactInfo">
+          <div class="title_txt">contact</div>
+          <ul>
+            <li class="flex">
+              <span class="flex_center">e-mail</span>
+              <p>sohi0000@naver.com</p>
+            </li>
+            <li class="flex">
+              <span class="flex_center">github</span>
+              <p>github.com/sohi0000</p>
+            </li>
+          </ul>
+        </div>
+        <div class="mail flex_center flex_col">
+          <div class="formRow">
+            <label for="name">
+              <span></span>
+              name
+            </label>
+            <input 
+              type="text" 
+              id="name" 
+              placeholder="이름은 입력해주세요" 
+              required>
+          </div>
+          <div class="formRow">
+            <label for="email">
+              <span></span>
+              e-mail
+            </label>
+            <input 
+              type="email" 
+              id="email" 
+              placeholder="이메일 주소를 입력해주세요" 
+              required>
+          </div>
+          <div class="formRow">
+            <label for="subject">
+              <span></span>
+              subject
+            </label>
+            <input 
+              type="subject" 
+              id="subject" 
+              placeholder="제목을 입력해주세요" 
+              required>
+          </div>
+          <div class="formRow">
+            <label for="content" class="content">
+              <span></span>
+              content
+            </label>
+            <textarea 
+              name="content" 
+              id="content" 
+              placeholder="내용을 입력해주세요" 
+              required></textarea>
+          </div>
+          
+          
+          
+          <button class="btn sendBtn">
+            <a href="#none">send mail</a>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- script -->
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script src="/js/lib/jquery-4.0.0.min.js"></script>
+  <script src="/js/lib/swiper-bundle.min.js"></script>
+  <script src="/js/layout/header.js"></script>
+  <script type="module" src="/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+.projectInfo {
+  margin-top: 60px;
+  height: 670px;
+  border-bottom: 1px solid var(--coolGray03);
+}
+.projectInfo > div {
+  height: 100%;
+}
+.imgArea,
+.infoArea {
+  width: 50%;
+  height: 100%;
+}
+.imgArea {
+  border-right: 1px solid var(--coolGray03);
+}
+.imgArea img {
+  display: inline-block;
+  width: 570px;
+  height: 570px;
+}
+.infoArea {
+  padding: 50px;
+}
+.info .projectSize {
+  width: 100px;
+  height: 20px;
+  background-color: var(--black);
+  color: var(--coolGray04);
+  margin-bottom: 8px;
+}
+.info .title {
+  margin-bottom: 20px;
+}
+.info div {
+  margin-bottom: 10px;
+}
+.info div .spanName {
+  display: inline-block;
+  width: 88px;
+  margin-right: 15px;
+}
+
+
+
+
+
+
+
+.btnWrap {
+  margin-top: auto;
+}
+.btnWrap button {
+  margin-top: 20px;
+}

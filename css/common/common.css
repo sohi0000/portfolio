@@ -1,0 +1,164 @@
+body {
+  color: var(--black);
+  font-weight: 300;
+}
+.hide {
+  display: none;
+}
+.inner_main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* 화면별 메인 텍스트 */
+.title_txt {
+  width: fit-content;
+  font-size: 24px;
+  margin-top: 50px;
+  position: relative;
+}
+.title_txt::after {
+  display: inline-block;
+  content: '';
+  clear: both;
+  width: 3px;
+  height: 10px;
+  background-color: var(--black);
+  position: absolute;
+  top: 50%;
+  right: -13px;
+  transform: translateY(-50%);
+}
+.title_24 {
+  font-size: 24px;
+}
+.sub_txt {
+  font-size: 14px;
+}
+
+/* 레이아웃-flex */
+.flex_between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex_start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex_end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.align_top {
+  align-items: flex-start;
+}
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex_col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 레이아웃-여백 */
+.margin_t_50px {
+  margin-top: 50px;
+}
+.width_100 {
+  width: 100%;
+}
+.layout_1200 {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* 버튼 */
+.btn {
+  width: 300px;
+  height: 50px;
+  background-color:rgba(247, 248, 249, 0.6);
+  backdrop-filter: blur(4px);
+  border: 1px solid var(--coolGray03);
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+}
+.btn::after {
+  display: inline-block;
+  content: '';
+  clear: both;
+  width: 22px;
+  height: 12px;
+  position:absolute;
+  top: 50%;
+  right: 43px;
+  transform: translateY(-50%);
+  transition: .3s;
+  background: url(/img/site_img/nextArrow_1.png) no-repeat center / contain;
+}
+.btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.btn:hover::after {
+  right: 25px;
+}
+/* .btn {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn_default {
+  border: 1px solid var(--coolgray03);
+  color: var(--coolgray03);
+}
+.btn_secondary {
+  border: 1px solid var(--dark05);
+  color: var(--dark05);
+}
+.btn_primary {
+  border: 1px solid var(--maincolor);
+  color: var(--maincolor);
+  border-radius: 3px;
+}
+.btn_active {
+  border: 1px solid var(--maincolor);
+  background: var(--maincolor);
+  color: #fff;
+}
+.btn_m {
+  width: 100px;
+}
+
+.btn_s {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+} */
+/* 버튼 비활성화 */
+/* button[disabled],
+.btn.disabled {
+  background: var(--coolgray04);
+  cursor: not-allowed;
+  border: 1px solid var(--coolgray02);
+  color: var(--coolgray02);
+} */
+
+

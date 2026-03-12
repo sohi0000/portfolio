@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  word-break: keep-all;
+  line-height: 1;
+  /* color: #333; */
+}
+html,
+body {
+  max-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+html {
+  overflow-x: hidden;
+  -webkit-text-size-adjust: none;
+  overflow-y: auto;
+}
+body {
+  background: #fff;
+  font-family: "Pretendard", "Noto Sans KR", sans-serif !important;
+  font-style: normal;
+  font-size: 16px;
+  /* font-weight: 400;
+  color: #333; */
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+ul,
+li,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+img {
+  border: 0;
+  font-size: 0;
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 16px;
+  font-family: "Pretendard", sans-serif;
+}
+textarea,
+select {
+  font-family: "Pretendard", sans-serif;
+  font-size: 16px;
+}
+/* 행 속성이 없는 textarea가 너무 작지 않도록 합니다. */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* 고정된 모든 항목에는 여분의 스크롤 여백이 있어야 합니다. */
+:target {
+  scroll-margin-block: 5ex;
+}
+
+select {
+  border: none;
+  border-radius: 0;
+}
+input,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: "Pretendard", sans-serif;
+  font-size: 16px;
+  border: 1px solid #333;
+  color: #333;
+}
+
+input[type="submit"],
+button {
+  cursor: pointer;
+}
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+table,
+tr,
+td {
+  border-collapse: collapse;
+}
+p {
+  word-break: keep-all;
+}
+caption {
+  display: none;
+}
+
+/* input 기본 초기화 */
+input,
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* IE10 이상에서 input box 에 추가된 지우기 버튼 제거 */
+input::-ms-clear {
+  display: none;
+}
+
+/* input type number 에서 화살표 제거 */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+i {
+  font-style: normal;
+}
+button {
+  background: transparent;
+  border: none;
+}

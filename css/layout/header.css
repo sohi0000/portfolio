@@ -1,0 +1,32 @@
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid var(--coolGray03);
+  padding: 0 50px;
+  z-index: 999;
+  background-color:rgba(247, 248, 249, 0.6);
+  backdrop-filter: blur(4px);
+}
+#header .logoImg {
+  width: 60px;
+  height: 100%;
+}
+.logoImg img {
+  width: 100%;
+  height: 20px;
+  object-fit: contain;
+}
+#header nav {
+  height: 100%;
+}
+#header nav ul {
+  height: 100%;
+  gap: 50px;
+}
+#header nav ul li {
+  height: 100%;
+  cursor: pointer;
+}
