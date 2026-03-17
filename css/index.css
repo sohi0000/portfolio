@@ -121,7 +121,7 @@
 .skillTool ul {
   margin-top: 35px;
   flex-wrap: wrap;
-  gap: 15px 23px;
+  gap: 15px 22px;
 }
 .skillTool ul li {
   display: flex;

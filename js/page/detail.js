@@ -10,7 +10,7 @@ let projectList = project.find(item => item.id === id);
 
 let projectInfo = document.querySelector('.projectInfo');
 
-function Info(item){
+function info(item){
   projectInfo.innerHTML = `
     <div class="inner_main flex">
       <div class="imgArea flex">
@@ -44,4 +44,26 @@ function Info(item){
     </div>
   `;
 }
-Info(projectList);
+info(projectList);
+
+let designPreview = document.querySelector('.designPreview');
+
+function preview(item){
+  designPreview.innerHTML = `
+    <div class="inner_main ${item.webImg ? '' : 'none'}">
+      <div class="title_txt">design preview</div>
+      <div class="imgWrap flex_between">
+        <div class="previewWep ${item.webImg ? '' : 'none'}">
+          <img src="${item.webImg}" alt="">
+        </div>
+        <div class="previewTablet ${item.tabletImg ? '' : 'none'}">
+          <img src="${item.tabletImg}" alt="">
+        </div>
+        <div class="previewMobile ${item.mobileImg ? '' : 'none'}">
+          <img src="${item.mobileImg}" alt="">
+        </div>
+      </div>
+    </div>
+  `;
+}
+preview(projectList);

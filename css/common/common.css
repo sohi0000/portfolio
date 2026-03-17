@@ -115,6 +115,11 @@ body {
 .btn:hover::after {
   right: 25px;
 }
+button[disabled] {
+  opacity: .5;
+  cursor: default; 
+  pointer-events: none;
+}
 /* .btn {
   font-size: 16px;
   font-weight: 500;

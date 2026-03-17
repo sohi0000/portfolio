@@ -1,0 +1,74 @@
+main {
+  margin-top: 110px;
+}
+ul {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+li {
+  border: 1px solid var(--coolGray03);
+  width: 285px;
+  height: 400px;
+  cursor: pointer;
+}
+li img {
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.info {
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+}
+.txtWrap {
+  margin-bottom: auto;
+}
+.projSize {
+  color: var(--coolGray02);
+  margin-bottom: 8px;
+}
+.projTitle {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.projProg {
+  margin-bottom: 3px;
+}
+.projTitle,
+.projProg,
+.projUse {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.btnWrap button {
+  width: 115px;
+  height: 30px;
+  background-color: var(--coolGray01);
+  color: var(--coolGray04);
+  text-align: start;
+  position: relative;
+}
+.btnWrap button::after {
+  content: '';
+  clear: both;
+  display: inline-block;
+  width: 17px;
+  height: 12px;
+  background: url(/img/site_img/nextArrow_2.png) no-repeat center / contain;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.btnWrap button a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  color: var(--coolGray04);
+}
