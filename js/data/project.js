@@ -7,7 +7,7 @@ export let project = [
     members: '김소희 [코딩]',
     program: 'VScode Figma',
     use: 'HMTL CSS JavaScript SwiperSlide pagenation.js jQuery',
-    websiteURL: 'https://mocook.dothome.co.kr/',
+    websiteURL: 'https://sohi0419.dothome.co.kr/',
     githubURL: 'https://github.com/sohi0000/Portfolio_list/tree/master/%EB%AA%A8%EB%91%90%EC%9D%98%EC%9A%94%EB%A6%AC',
     mockupImg: '/img/mock_img/mocook_mockup.jpg',
     webImg: '/img/preview/mocook_desktop.png',
